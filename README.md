@@ -17,7 +17,7 @@ This project determines the "Best Neighborhood" in Pittsburgh through a data-dri
 This repository is organized to showcase both individual work and the final group synthesis.
 
 * **Root Directory:**
-    * `Combined_Analysis.ipynb`: **The Main Report.** This notebook merges the individual datasets, applies the weighted formula (Safety 50%, Traffic 30%, Education 20%), and visualizes the final ranking.
+    * `Best_Neighborhood.ipynb`: **The Main Report.** This notebook merges the individual datasets, applies the weighted formula (Safety 50%, Traffic 30%, Education 20%), and visualizes the final ranking.
     * `README.md`: Project documentation.
     * `final_weighted_ranking.csv`: The final output of our combined analysis.
 
@@ -39,9 +39,9 @@ This repository is organized to showcase both individual work and the final grou
 * **Description:** A dataset containing information on arrests made by the City of Pittsburgh Bureau of Police. It is used to calculate a "Safety Score" where fewer arrests indicate higher safety.
 * **Analyst:** Jiakai Dai
 
-### 3. SNAP Census Data (Education Enrollment)
-* **Source:** [WPRDC - SNAP Census Data](https://data.wprdc.org/dataset/snap-census-data-populations)
-* **Description:** 2010 Census and ACS data focusing on school enrollment figures by neighborhood. It is used to identify areas with high educational engagement and student density.
+### 3. 2015 American Community Survey: School Enrollment
+* **Source:** [WPRDC - 2015 ACS School Enrollment](https://data.wprdc.org/dataset/pittsburgh-american-community-survey-2015-school-enrollment)
+* **Description:** This dataset (School Enrollment, All Races) from the 2015 American Community Survey is used to calculate the "Education Score." It measures the ratio of the population enrolled in school relative to the total population, serving as a proxy for the educational vibrancy of each neighborhood.
 * **Analyst:** Xiangyu Li
 
 ## 5. Execution Instructions
